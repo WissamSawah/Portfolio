@@ -1,0 +1,22 @@
+// Callout
+.callout {
+  padding: 15rem 0;
+  background: linear-gradient(rgba(0,0,0,.1),rgba(1,1,1,1)),url(../img/me2.jpg);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: block;
+    max-width: 30rem;
+  }
+  @media (max-width: 500px) {
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    background-attachment: unset !important;
+
+  }
+}
